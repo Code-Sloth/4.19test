@@ -26,7 +26,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-SECRET_KEY = os.getenv('guyo8ase7)-6pgv_gdk@-dtx&ideh(ell7@-v*n*fnn&t8v*dt')
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
